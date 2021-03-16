@@ -12,6 +12,16 @@
       }
     }
   },
+  "envVars": {
+  "ELASTICIO_MESSAGE_CRYPTO_IV": {
+    "required": true,
+    "description": "Vector for symmetric encryption"
+    },
+  "ELASTICIO_MESSAGE_CRYPTO_PASSWORD": {
+      "required": true,
+      "description": "Password for symmetric encryption"
+     }
+  },
   "actions": {
     "publish": {
       "title": "Publish",
